@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,99 +10,63 @@ header {
 }
 header img{
     margin: 15px;
-    position: relative;
-    margin-left: 100px;
-    top: calc(50%-100px);
+    margin-left: 195px;
 }
 nav{
     position: absolute;
-    display: block;
-    text-align: center;
     top: 15px;
     right: 70px;
-    left: 70px;
-}
-ul{
-    position: relative;
+    left: 430px;
 }
 li{
-    color: rgb(75, 74, 74));
+    margin-right: 60px;
+    background-color: rgb(75, 74, 74);
     display: inline;
+    color:rgb(134, 133, 133);
     font-weight: bolder;
-    color: grey;
     line-height: 70px;
     padding: 30px;
 }
-main {
+main{
     width: 960px;
-    height: 1300px;
+    height: 1350px;
     margin: auto;
-    padding: 30px;
+    padding-top: 30px;
 }
-main img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-main div{
-    position: relative;
-    display:block;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-main img{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-main>div{
-    position: relative;
-    display:block;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-div img{
-    display: inline-block;
-    padding-inline-end: 17px;
+.image{
+    word-spacing: 25.5px;
+    padding-top: 30px;
 }
 #section{
-    position:relative;
-    display: block;
+    padding-top: 30px;
 }
 #section img{
     display: inline;
-    float: none;
-}
-div div{
-    display: block;
-    float: right;
-    height: 400px;
-    width: 450px;
+    float: left;
 }
 h3{
-    font-size: 20px;
-    font-weight: bold;
+    float: left;
+    padding-left: 30px; 
+    font-weight: bolder;
 }
 p{
-    font-size: 15px;
-    line-height: 20px;
+    overflow: scroll;
+    position: relative;
+    float: left;
+    height: 333px;
+    width: 450px;
+    padding-left: 30px;
 }
 a{
     display: inline-block;
     font-size: 20px;
-    margin-top: 20px; 
     width: 150px;
     text-align: center;
     border-radius: 5px;
     background-color: black;
     color: white;
     padding: 15px;
+    margin-left: 30px;
 }
 footer{
     position: relative;
